@@ -39,8 +39,7 @@ void mousePressed()
   startY = 95;
   endX = startX;
   endY = 95;
-  if (mousePressed == true)
-  {
+ 
     numClick = numClick + 1; 
     if (numClick > 7)
     {
@@ -55,5 +54,5 @@ void mousePressed()
       ellipse(200, 50, 70, 50);
       numClick = 0;
     }
-  }
+  
 }
