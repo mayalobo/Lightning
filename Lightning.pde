@@ -41,6 +41,7 @@ void mousePressed()
   endY = 95;
  
     numClick = numClick + 1; 
+    print(numClick);
     if (numClick > 7)
     {
       clear();
