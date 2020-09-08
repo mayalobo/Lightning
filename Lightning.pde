@@ -39,21 +39,18 @@ void mousePressed()
   startY = 95;
   endX = startX;
   endY = 95;
- 
-    numClick = numClick + 1; 
-    print(numClick);
-    if (numClick > 7)
-    {
-      clear();
-      background(0, 0, 0);
-      noStroke();
-      strokeWeight(0);
-      ellipse(150, 70, 200, 50);
-      ellipse(65, 55, 50, 50);
-      ellipse(100, 50, 60, 60);
-      ellipse(150,45, 100, 80);
-      ellipse(200, 50, 70, 50);
-      numClick = 0;
-    }
-  
+  numClick = numClick + 1; 
+  if (numClick > 7)
+  {
+    clear();
+    background(0, 0, 0);
+    noStroke();
+    strokeWeight(0);
+    ellipse(150, 70, 200, 50);
+    ellipse(65, 55, 50, 50);
+    ellipse(100, 50, 60, 60);
+    ellipse(150,45, 100, 80);
+    ellipse(200, 50, 70, 50);
+    numClick = 0;
+ }  
 }
